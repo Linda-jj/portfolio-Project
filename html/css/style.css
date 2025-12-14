@@ -11,13 +11,18 @@ margin: 0;
  display: flex;
  justify-content: space-evenly;
 background-color: #1B1B1B;
-color: #9C9C9C;
+color: #bdbcbc;
 height: 70px;
 justify-content:center;
 gap: 70px;
 width: 80%;
 align-items: center;
 margin: 0px 150px ;
+}
+.a-class{
+    text-decoration: none;
+     color: #bdbcbc;
+
 }
 .header-box2{
     gap: 50px;
@@ -29,6 +34,7 @@ margin: 0px 150px ;
     display:flex;
     justify-content: center;
     height: 550px;
+  
 
 }
 .hero-box{
@@ -36,6 +42,7 @@ margin: 0px 150px ;
     flex-direction: column;
     color:white;
     justify-content: center;
+    color: #bdbcbc;
 }
 .hero-img{
     width: 350px;
@@ -69,7 +76,7 @@ margin: 0px 150px ;
 .btn-view{
     text-decoration: none;
     color: #3F8E00;
-    background-color: aliceblue;
+    background-color:#bdbcbc;
     padding: 10px;
     border-radius: 10px;
     gap: 70px;
@@ -82,30 +89,32 @@ margin: 0px 150px ;
 }
 .tools{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .tools-box{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .tools-img{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 .front-title{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .frontend{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 .front-end{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .project-title{
     text-align: center;
@@ -114,8 +123,9 @@ margin: 0px 150px ;
 }
 .Projects{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    align-items: center;
+  
 
 }
 .Project-1{
@@ -123,6 +133,7 @@ margin: 0px 150px ;
     height: 150px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     box-shadow: 0 10px 20px rgba(7, 6, 6, 0.2);
+    
    
 }
